@@ -9,8 +9,8 @@
         <module name="taotao-common" />
         <module name="taotao-manager-dao" />
         <module name="taotao-manager-pojo" />
-        <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
+        <module name="taotato-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
