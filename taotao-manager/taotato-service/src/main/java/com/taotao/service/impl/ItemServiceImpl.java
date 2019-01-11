@@ -52,6 +52,6 @@ public class ItemServiceImpl implements ItemService {
         EasyUIDataGridResult result=new EasyUIDataGridResult();
         result.setTotal(pageInfo.getTotal());
         result.setRows(list);
-        return null;
+        return result;
     }
 }

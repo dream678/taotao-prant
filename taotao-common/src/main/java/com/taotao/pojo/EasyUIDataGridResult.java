@@ -10,8 +10,11 @@ import java.util.List;
  * Desc:
  */
 public class EasyUIDataGridResult {
-    //
+    //查询结果的总记录输
     private long total;
+    //集合，包含显示的所有数据其
+    // 中集合中每个元素的key应该和
+    // dategrid的field对应。
     private List<?> rows;
 
     public long getTotal() {

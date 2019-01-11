@@ -33,10 +33,10 @@ public class TestPageHelper {
     //取分页后结果
     PageInfo<TbItem> pageInfo=new PageInfo<>(list);
     long total=pageInfo.getTotal();
-    System.out.println("total"+total);
+    System.out.println("total "+total);
     int pages=pageInfo.getPages();
-    System.out.println("pages"+pages);
+    System.out.println("pages "+pages);
     int pageSize=pageInfo.getPageSize();
-    System.out.println("pageSize"+pageSize);
+    System.out.println("pageSize "+pageSize);
 }
 }
